@@ -1,4 +1,4 @@
-/* Common styling for all scorecards */
+/* Common styling for all Scorecards */
 body {
     font-family: Arial, sans-serif;
 }
@@ -14,7 +14,7 @@ main {
     padding: 20px;
 }
 
-/* Styling for the scorecards */
+/* Styling for the Scorecards */
 .Scorecards {
     width: 100%;
     border-collapse: collapse;
