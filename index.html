@@ -1,37 +1,37 @@
-/* Common styling for all scorecards */
-body {
-    font-family: Arial, sans-serif;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Golf Scorecard</title>
+</head>
+<body>
+    <header>
+        <h1>Golf Scorecard</h1>
+    </header>
 
-header {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-
-main {
-    padding: 20px;
-}
-
-/* Styling for the scorecards */
-.scorecard {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-}
-
-.scorecard th, .scorecard td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: center;
-}
-
-.scorecard th {
-    background-color: #f2f2f2;
-}
-
-/* Pseudo class for hover effect on table rows */
-.scorecard tbody tr:hover {
-    background-color: #f5f5f5;
-}
+    <main>
+        <table class="scorecard">
+            <thead>
+                <tr>
+                    <th>Round</th>
+                    <th>Player 1</th>
+                    <th>Player 2</th>
+                    <th>Player 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Add rows for each round and player -->
+                <tr>
+                    <td>1</td>
+                    <td>Score</td>
+                    <td>Score</td>
+                    <td>Score</td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
